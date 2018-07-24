@@ -1,3 +1,11 @@
-# Code your prompts here!
-
-# Try starting out with puts'ing a string.
+puts "Hello! Enter your name."
+guest_name = gets.strip 
+puts "Great! What is the party name?"
+party_name = gets.strip 
+puts "Perfect! What is the date?"
+date = gets.strip
+puts "Great! Enter the time!"
+time = gets.strip 
+puts "Perfect! What is the host name?"
+host_name = gets.strip
+puts "Dear #{guest_name}, You are cordially invited to #{party_name} on "
