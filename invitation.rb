@@ -1,4 +1,4 @@
-puts "Hello! Enter your name."
+puts "Hi, you've been invited to a party! What is your name?"
 guest_name = gets.strip 
 puts "Great! What is the party name?"
 party_name = gets.strip 
